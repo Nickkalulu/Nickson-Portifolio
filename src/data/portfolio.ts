@@ -1,6 +1,6 @@
 export const portfolioData = {
   name: "Nickson Kalulu",
-  title: "Web Developer",
+  title: "Software Developer | Web Developer",
   location: "Zomba, Malawi (Open to Remote Roles)",
   contact: {
     phone: "+265 99 152 6930",

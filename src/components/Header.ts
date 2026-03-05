@@ -2,7 +2,7 @@ export function createHeader(): string {
   return `
     <header class="header">
       <nav class="nav">
-        <div class="nav-logo">NK</div>
+        <div class="nav-logo">NICKSON KALULU</div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#skills">Skills</a></li>
