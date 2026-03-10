@@ -60,6 +60,32 @@ function createApp() {
       }
     }
   });
+
+  // Theme toggle functionality
+  const themeToggle = document.getElementById("theme-toggle");
+
+  // Check for saved theme preference or default to dark mode
+  const savedTheme = localStorage.getItem("theme") || "dark";
+  if (savedTheme === "light") {
+    document.body.classList.add("light-mode");
+    document.body.classList.remove("dark-mode");
+  } else {
+    document.body.classList.add("dark-mode");
+    document.body.classList.remove("light-mode");
+  }
+
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      document.body.classList.toggle("light-mode");
+      document.body.classList.toggle("dark-mode");
+
+      // Save preference to localStorage
+      const currentTheme = document.body.classList.contains("light-mode")
+        ? "light"
+        : "dark";
+      localStorage.setItem("theme", currentTheme);
+    });
+  }
 }
 
 export default createApp;
