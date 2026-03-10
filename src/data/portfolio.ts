@@ -5,7 +5,11 @@ export const portfolioData = {
   contact: {
     phone: "+265 99 152 6930",
     email: "nkalulu1@gmail.com",
-    github: "nkalulu",
+    github: "nickkalulu",
+    linkedin: "nickson-kalulu",
+    twitter: "nkalulu",
+    whatsapp: "265991526930",
+    facebook: "nick kalulu",
   },
   profile: `Software Developer with experience building scalable mobile and web 
 applications using Flutter, React, and modern backend frameworks. Strong 
@@ -21,7 +25,7 @@ Firebase. Comfortable working in remote environments using Git workflows.`,
   },
   projects: [
     {
-      name: "Inventory Management System (Full-Stack Mobile App)",
+      name: "N-Traders Inventory Management System (Full-Stack Mobile App)",
       techStack: "Flutter, Firebase, Firestore",
       description: [
         "Architected and developed a production-ready inventory and sales management mobile application.",
@@ -31,9 +35,13 @@ Firebase. Comfortable working in remote environments using Git workflows.`,
         "Optimized data structure for scalability and performance.",
         "Improved operational efficiency and reduced manual record errors.",
       ],
+      links: {
+        github: "https://github.com/Nickkalulu/Shop-Inventory-Sales-Management-App",
+        live: "https://play.google.com/store/apps/details?id=com.inventory.app",
+      },
     },
     {
-      name: "Blood Donation Connect Platform (Full-Stack Application)",
+      name: "Blood Bridge  (Full-Stack Application)",
       techStack: "Flutter, NestJS, PostgreSQL",
       description: [
         "Developed RESTful backend APIs using NestJS and PostgreSQL.",
@@ -42,6 +50,9 @@ Firebase. Comfortable working in remote environments using Git workflows.`,
         "Implemented push notifications for urgent blood donation requests.",
         "Applied secure authentication and data privacy best practices.",
       ],
+      links: {
+        github: "https://github.com/Nickkalulu/Blood-Bridge",
+      },
     },
     {
       name: "Student Expense Tracker (Mobile Application)",
@@ -52,9 +63,27 @@ Firebase. Comfortable working in remote environments using Git workflows.`,
         "Implemented categorized expense analytics and monthly budget tracking.",
         "Integrated local and cloud data storage synchronization.",
       ],
+      links: {
+        github: "https://github.com/nickkalulu/expense-tracker",
+        live: "https://expense-tracker.app",
+      },
     },
   ],
   experience: [
+    {
+      title: "Sales Manager",
+      company: "N-TRADERS – Zomba, Malawi",
+      period: "2022 – Present",
+      responsibilities: [
+        "Managed daily sales operations and customer relationships for the business.",
+        "Developed sales strategies that increased product demand and customer retention.",
+        "Supervised inventory management and coordinated product restocking.",
+        "Maintained accurate sales records and financial tracking.",
+        "Negotiated with suppliers and customers to ensure profitable transactions.",
+        "Led marketing efforts through online platforms and direct client engagement.",
+        "Assisted in integrating digital tools, including an inventory management system, to improve business efficiency.",
+      ],
+    },
     {
       title: "Enumerator",
       company: "Mwanza District Council – Mwanza, Malawi",
@@ -65,7 +94,7 @@ Firebase. Comfortable working in remote environments using Git workflows.`,
         "Captured GPS coordinates and ensured proper data synchronization.",
         "Uploaded survey data daily and maintained high data quality standards.",
         "Explained survey objectives clearly to respondents and ensured informed participation.",
-        "Worked closely with supervisors in daily review meetings to verify accuracy and completeness of collected data.",
+        "Worked closely with supervisors in daily review meetings to verify accuracy and completeness of data.",
         "Maintained confidentiality and adhered to ethical data collection guidelines.",
       ],
     },
@@ -97,7 +126,6 @@ Firebase. Comfortable working in remote environments using Git workflows.`,
     "GPS Data Collection and Location Capture",
     "Microsoft Office: Excel, Word, PowerPoint",
     "Data Entry and Database Handling",
-    "Typing: High speed and accuracy",
     "End user support",
   ],
 };
