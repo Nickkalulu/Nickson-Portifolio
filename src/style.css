@@ -45,6 +45,26 @@
   --shadow-glow-warm: 0 0 30px rgba(255, 107, 107, 0.3);
 }
 
+/* Light Mode Variables */
+.light-mode {
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a5a;
+  --accent: #0891b2;
+  --accent-secondary: #dc2626;
+  --accent-tertiary: #d97706;
+  --accent-hover: #0e7490;
+  --accent-glow: rgba(8, 145, 178, 0.2);
+  --accent-glow-secondary: rgba(220, 38, 38, 0.2);
+  --border: #e2e8f0;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
+  --shadow-glow: 0 0 20px rgba(8, 145, 178, 0.2);
+  --shadow-glow-warm: 0 0 20px rgba(220, 38, 38, 0.2);
+}
+
 /* ===== Reset & Base ===== */
 * {
   margin: 0;
