@@ -16,6 +16,26 @@ export function createProjectsSection(): string {
               <ul class="project-description">
                 ${project.description.map((desc) => `<li>${desc}</li>`).join("")}
               </ul>
+              <div class="project-links">
+                ${
+                  project.links?.github
+                    ? `
+                  <a href="${project.links.github}" target="_blank" class="project-link github-link">
+                   GitHub
+                  </a>
+                `
+                    : ""
+                }
+                ${
+                  project.links?.live
+                    ? `
+                  <a href="${project.links.live}" target="_blank" class="project-link live-link">
+                   Live Demo
+                  </a>
+                `
+                    : ""
+                }
+              </div>
             </div>
           `,
             )
