@@ -1,6 +1,6 @@
 export const portfolioData = {
   name: "Nickson Kalulu",
-  title: "Software Developer | Web Developer",
+  title: "Software Developer | Web $ App Developer",
   location: "Zomba, Malawi (Open to Remote Roles)",
   contact: {
     phone: "+265 99 152 6930",
@@ -37,7 +37,7 @@ Firebase. Comfortable working in remote environments using Git workflows.`,
       ],
       links: {
         github: "https://github.com/Nickkalulu/Shop-Inventory-Sales-Management-App",
-        live: "https://play.google.com/store/apps/details?id=com.inventory.app",
+        live: "https://shop-inventory-sales-management-app.vercel.app",
       },
     },
     {
